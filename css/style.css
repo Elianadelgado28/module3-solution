@@ -1,0 +1,95 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color:white;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    background-color: rgb(73, 175, 230);
+    border-radius: 0;
+    border: 0;
+  }
+  
+.title{
+    font-size: 30px;
+    width: 150px;
+    color: black;
+    margin: 10px 15px 10px 0px; 
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle:focus {
+    outline: 0;
+}
+
+.navbar-toggle .icon-bar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top: 4px;
+}
+
+@media(min-width:768px){
+.navbar-toggle{
+    display: none;
+}
+}
+
+.navbar-nav{
+    margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.parrafo{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;  
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover {
+    background:#e7e7e7;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
